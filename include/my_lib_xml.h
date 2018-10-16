@@ -8,13 +8,7 @@
 #ifndef MY_LIB_XML_H_
 #define MY_LIB_XML_H_
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include "basic_fn/get_next_line.h"
+#include "libmy/libmy.h"
 
 #define TRUE 1
 #define FALSE 0

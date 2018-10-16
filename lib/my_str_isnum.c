@@ -5,7 +5,7 @@
 ** basic function
 */
 
-#include "libmy.h"
+#include "libmy/libmy.h"
 
 int my_str_isnum(const char *str)
 {

@@ -7,7 +7,7 @@
 
 int my_strcmp(const char *src, const char *str)
 {
-	while (*src && *src == *str) {
+	while (*src && *str && *src == *str) {
 		src += 1;
 		str += 1;
 	}

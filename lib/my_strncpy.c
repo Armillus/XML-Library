@@ -5,9 +5,9 @@
 ** basic function
 */
 
-#include "libmy.h"
+#include "libmy/libmy.h"
 
-char *my_strncpy(char *str, int n)
+char *my_strncpy(char *str, size_t n)
 {
 	if (!str || n >= my_strlen(str))
 		return (str);

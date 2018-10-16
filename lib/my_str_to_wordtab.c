@@ -5,7 +5,7 @@
 ** basic function to split a string
 */
 
-#include "libmy.h"
+#include "libmy/libmy.h"
 
 char **my_str_to_wordtab(char *str, char c)
 {

@@ -5,7 +5,7 @@
 ** basic function to write one character
 */
 
-#include "libmy.h"
+#include "libmy/libmy.h"
 
 void my_putchar(const char c)
 {

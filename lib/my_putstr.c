@@ -5,7 +5,7 @@
 ** basic function to write on standard output
 */
 
-#include "libmy.h"
+#include "libmy/libmy.h"
 
 inline void my_putstr(const char *str)
 {

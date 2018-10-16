@@ -5,7 +5,7 @@
 ** Basic function to write on stderr
 */
 
-#include "libmy.h"
+#include "libmy/libmy.h"
 
 inline void my_strerr(const char *str)
 {

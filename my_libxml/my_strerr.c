@@ -9,5 +9,5 @@
 
 int my_strerr(const char *str)
 {
-	return (write(2, str, my_strlen(str)));
+	return ((int)write(2, str, my_strlen(str)));
 }

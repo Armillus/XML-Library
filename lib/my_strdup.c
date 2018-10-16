@@ -5,7 +5,7 @@
 ** basic function to duplicate a string
 */
 
-#include "libmy.h"
+#include "libmy/libmy.h"
 
 char *my_strdup(const char *str)
 {
@@ -16,7 +16,7 @@ char *my_strdup(const char *str)
 	dest = malloc(sizeof(char) * (my_strlen(str) + 1));
 	if (!dest)
 		return (NULL);
-	for (; *str;)
+	while (*str)
 		*dest++ = *str++;
 	*dest = '\0';
 	return (dest);

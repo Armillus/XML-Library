@@ -5,7 +5,7 @@
 ** get_next_line
 */
 
-#include "get_next_line.h"
+#include "libmy/get_next_line.h"
 
 static int my_strnlen(const char *str, register int option)
 {

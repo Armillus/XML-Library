@@ -5,11 +5,11 @@
 ** cut the first n characters of a string
 */
 
-#include "libmy.h"
+#include "libmy/libmy.h"
 
 char *my_str_ncut(char *str, int n)
 {
-	if (!str || my_strcmp(str, "") == 0)
+	if (IS_NULL_OR_EMPTY(str))
 		return (NULL);
 	for (; str[n]; str += 1) {
 		*str = str[n++];
